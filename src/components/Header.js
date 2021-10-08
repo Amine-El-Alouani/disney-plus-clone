@@ -61,7 +61,7 @@ const NavMenu =styled.div`
            height: 20px;
        }
        span{
-           font-size: 13px;
+           font-size: 14px;
            letter-spacing: 1.5px;
            position: relative;
            &:after{
