@@ -50,8 +50,8 @@ const Carousel = styled(Slider)`
          color: #fff; 
      }
 
-     button{
-         z-index: 1;
+     .slick-arrow .slick-next{
+         display: hidden; 
      }
   `
 

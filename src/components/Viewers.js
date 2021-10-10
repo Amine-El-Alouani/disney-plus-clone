@@ -46,7 +46,7 @@ const Container = styled.div`
     padding: 30px 0 26px;
     display: grid;
     grid-template-columns: repeat(5,minmax(0,1fr));
-    grid-gap: 25px;
+    grid-gap: 30px;
 ` 
 const Wrap = styled.div`
     position: relative;
@@ -61,6 +61,8 @@ const Wrap = styled.div`
     }
 
     video{
+       border-radius: 10px;
+       transform: scaleY(1.03);
        opacity:0;
        position: absolute;
        top:0;
