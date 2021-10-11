@@ -27,6 +27,12 @@ function Details() {
                         <img src="/images/group-icon.png" alt="" />
                     </GrpWatchBtn>
                 </Controls>
+                <SubTitle>
+                    2018 - 7m - Family, Fantasy, Kids
+                </SubTitle>
+                <Descreption>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cumque maiores doloribus magni, repudiandae, pariatur temporibus, dignissimos sapiente ea fuga quaerat ut magnam necessitatibus? Laudantium nisi corporis rerum incidunt laboriosam?
+                </Descreption>
             </Container>
         </div>
     )
@@ -122,3 +128,15 @@ const GrpWatchBtn = styled(AddBtn)`
       background: rgb(0,0,0);
 `
 
+const SubTitle = styled.div`
+      margin-top: 26px;
+      font-size: 15px;
+      min-height: 20px;
+ `
+
+ const Descreption = styled.div`
+       margin-top: 16px;
+       line-height: 1.4;
+       font-size: 20px;
+       width: 50%;
+ ` 
