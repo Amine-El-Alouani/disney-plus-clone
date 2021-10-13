@@ -139,4 +139,5 @@ const SubTitle = styled.div`
        line-height: 1.4;
        font-size: 20px;
        width: 50%;
+       color: rgb(249,249,249);
  ` 
